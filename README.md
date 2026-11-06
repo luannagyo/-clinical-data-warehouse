@@ -116,8 +116,8 @@ Seguindo os mais altos padrões de Engenharia de Dados, o pipeline conta com uma
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/luannagyovana/clinical-data-warehouse.git
-cd clinical-data-warehouse
+git clone https://github.com/luannagyo/-clinical-data-warehouse.git
+cd -clinical-data-warehouse
 
 # 2. Instale as dependências
 pip install -r requirements.txt
@@ -135,4 +135,4 @@ python tests/test_data_quality.py
 **Luanna Oliveira**  
 *Graduanda em Sistemas de Informação (PUC Minas) | Bacharel em Biomedicina*  
 * [LinkedIn](https://www.linkedin.com/in/luannagyovana/)
-* [GitHub](https://github.com/luannagyovana/)
+* [GitHub](https://github.com/luannagyo)

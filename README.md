@@ -1,15 +1,8 @@
-# 🏥 Healthcare Operations & Clinical Data Warehouse
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
-![SQL](https://img.shields.io/badge/SQL-Advanced-orange?logo=postgresql)
-![Modelagem](https://img.shields.io/badge/Modelagem-Kimball%20Star%20Schema-success)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboards%20%26%20DAX-yellow?logo=powerbi)
-![Data Quality](https://img.shields.io/badge/Data%20Quality-Pytest%20Validated-brightgreen)
-![Status](https://img.shields.io/badge/Status-Production%20Ready-success)
+# Healthcare Operations & Clinical Data Warehouse
 
 ---
 
-## 🎯 Visão Executiva & Desafio de Negócio
+## Visão Executiva & Desafio de Negócio
 
 Em instituições de saúde e clínicas especializadas (reabilitação, fisioterapia e pilates clínico), a tomada de decisão frequentemente sofre com a **fragmentação de prontuários e transações operacionais**. Dados transacionais (OLTP) sem modelagem analítica resultam em:
 * Desconhecimento da taxa real de ociosidade das salas e horários de pico.
@@ -21,7 +14,7 @@ Este projeto implementou uma solução *end-to-end* de Engenharia de Dados e Bus
 
 ---
 
-## 🏗️ Arquitetura da Solução
+## Arquitetura da Solução
 
 ```mermaid
 flowchart LR
@@ -33,7 +26,7 @@ flowchart LR
 
 ---
 
-## 📊 Modelo Dimensional (Kimball Star Schema)
+## Modelo Dimensional (Kimball Star Schema)
 
 O modelo dimensional foi desenhado com granularidade no nível de **atendimento individual**, permitindo cruzamento multidimensional por tempo, paciente, profissional e serviço:
 
@@ -93,7 +86,7 @@ erDiagram
 
 ---
 
-## 💡 Consultas Analíticas Avançadas (SQL Sênior)
+## Consultas Analíticas Avançadas (SQL Sênior)
 
 O repositório disponibiliza queries em [`sql/03_analytical_queries.sql`](sql/03_analytical_queries.sql) que respondem perguntas estratégicas de gestão:
 1. **Ocupação e Horários Críticos:** Utiliza funções de ranqueamento de janela (`RANK() OVER(PARTITION BY ...)`) e agregações de no-show para planejamento de escala.
@@ -102,7 +95,7 @@ O repositório disponibiliza queries em [`sql/03_analytical_queries.sql`](sql/03
 
 ---
 
-## 🧪 Juiz Externo: Qualidade e Confiabilidade de Dados (Data Quality CI/CD)
+## Qualidade e Confiabilidade de Dados (Data Quality CI/CD)
 
 Seguindo os mais altos padrões de Engenharia de Dados, o pipeline conta com uma suíte de testes automatizados com `pytest` em [`tests/test_data_quality.py`](tests/test_data_quality.py):
 * **Unicidade de Chaves:** Garante integridade de 100% nas chaves substitutas (*Surrogate Keys*).
@@ -112,7 +105,7 @@ Seguindo os mais altos padrões de Engenharia de Dados, o pipeline conta com uma
 
 ---
 
-## 🚀 Como Reproduzir Localmente
+## Como Reproduzir Localmente
 
 ```bash
 # 1. Clone o repositório
@@ -125,13 +118,13 @@ pip install -r requirements.txt
 # 3. Execute o pipeline de ETL
 python scripts/etl_pipeline.py
 
-# 4. Execute a suíte de testes de qualidade de dados (Juiz Externo)
+# 4. Execute a suíte de testes de qualidade de dados
 python tests/test_data_quality.py
 ```
 
 ---
 
-## 👤 Autora
+## Autora
 **Luanna Oliveira**  
 *Graduanda em Sistemas de Informação (PUC Minas) | Bacharel em Biomedicina*  
 * [LinkedIn](https://www.linkedin.com/in/luannagyovana/)

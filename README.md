@@ -97,6 +97,15 @@ O repositório disponibiliza queries em [`sql/03_analytical_queries.sql`](sql/03
 
 ---
 
+## Camada de Visualização & Business Intelligence (Power BI)
+
+O repositório disponibiliza a solução completa de BI conectada diretamente ao Data Warehouse:
+* **Arquivo do Dashboard:** [`Healthcare_Analytics.pbix`](Healthcare_Analytics.pbix) pronto para abertura e exploração no Power BI Desktop.
+* **Documentação de DAX:** Medidas de negócio (KPIs, margem líquida, taxa de no-show e ranking) documentadas em [`docs/dax_measures.md`](docs/dax_measures.md).
+* **Bases de Dados Modeladas:** Dados em Star Schema preparados para importação em [`data/powerbi/`](data/powerbi/).
+
+---
+
 ## Qualidade e Confiabilidade de Dados (Data Quality CI/CD)
 
 Seguindo os mais altos padrões de Engenharia de Dados, o pipeline conta com uma suíte de testes automatizados com `pytest` em [`tests/test_data_quality.py`](tests/test_data_quality.py):

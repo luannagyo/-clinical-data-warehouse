@@ -1,0 +1,17 @@
+﻿sk_paciente;paciente_id_origem;faixa_etaria;genero;cidade;uf;tempo_como_cliente_meses;status_ativo
+1;1;40 a 59 anos;F;Contagem;MG;12;1
+2;2;25 a 39 anos;F;Belo Horizonte;MG;12;1
+3;3;25 a 39 anos;M;Belo Horizonte;MG;12;1
+4;4;40 a 59 anos;F;Nova Lima;MG;12;1
+5;5;25 a 39 anos;M;Contagem;MG;12;1
+6;6;40 a 59 anos;F;Nova Lima;MG;12;1
+7;7;25 a 39 anos;M;Betim;MG;12;1
+8;8;25 a 39 anos;F;Belo Horizonte;MG;12;1
+9;9;60+ anos;M;Belo Horizonte;MG;12;1
+10;10;60+ anos;F;Contagem;MG;12;1
+11;11;40 a 59 anos;M;Nova Lima;MG;12;1
+12;12;40 a 59 anos;F;Nova Lima;MG;12;1
+13;13;40 a 59 anos;M;Nova Lima;MG;12;1
+14;14;40 a 59 anos;M;Belo Horizonte;MG;12;1
+15;15;60+ anos;M;Contagem;MG;12;1
+16;16;40 a 59 anos;F;Betim;MG;12;1

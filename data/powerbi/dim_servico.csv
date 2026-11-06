@@ -1,0 +1,6 @@
+﻿sk_servico;servico_id_origem;nome_servico;categoria;duracao_padrao_minutos;faixa_preco
+1;1;Sessão de Pilates Clínico;Pilates Clínico;50;Econômico
+2;2;Avaliação Fisioterapêutica e Biomecânica;Avaliação;60;Padrão
+3;3;Fisioterapia Ortopédica e Funcional;Fisioterapia;50;Padrão
+4;4;Sessão de Osteopatia e Liberação Miofascial;Osteopatia;60;Premium
+5;5;Reeducação Postural Global (RPG);Fisioterapia;50;Padrão

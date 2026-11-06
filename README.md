@@ -115,10 +115,14 @@ cd -clinical-data-warehouse
 # 2. Instale as dependências
 pip install -r requirements.txt
 
-# 3. Execute o pipeline de ETL
+# 3. Execução completa com demonstração de relatórios (Recomendado)
+python scripts/run_showcase.py
+
+# Ou execute as etapas individualmente:
+# Pipeline de ETL
 python scripts/etl_pipeline.py
 
-# 4. Execute a suíte de testes de qualidade de dados
+# Suíte de testes de qualidade de dados (Data Quality)
 python tests/test_data_quality.py
 ```
 

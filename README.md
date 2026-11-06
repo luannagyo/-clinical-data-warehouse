@@ -1,5 +1,7 @@
 # Healthcare Operations & Clinical Data Warehouse
 
+![Executive Dashboard Preview](docs/images/dashboard_preview.png)
+
 ---
 
 ## Visão Executiva & Desafio de Negócio

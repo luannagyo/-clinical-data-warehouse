@@ -28,7 +28,7 @@ flowchart LR
 
 ---
 
-## Modelo Dimensional (Kimball Star Schema)
+## Modelo Dimensional (Star Schema)
 
 O modelo dimensional foi desenhado com granularidade no nível de **atendimento individual**, permitindo cruzamento multidimensional por tempo, paciente, profissional e serviço:
 

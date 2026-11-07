@@ -30,7 +30,7 @@ flowchart LR
 
 ---
 
-## Modelo Dimensional (Kimball Star Schema)
+## Modelo Dimensional (Star Schema)
 
 O modelo dimensional foi desenhado com granularidade no nível de **atendimento individual**, permitindo cruzamento multidimensional por tempo, paciente, profissional e serviço:
 
@@ -90,7 +90,7 @@ erDiagram
 
 ---
 
-## Consultas Analíticas Avançadas (SQL Sênior)
+## Consultas Analíticas Avançadas (SQL)
 
 O repositório disponibiliza queries em [`sql/03_analytical_queries.sql`](sql/03_analytical_queries.sql) que respondem perguntas estratégicas de gestão:
 1. **Ocupação e Horários Críticos:** Utiliza funções de ranqueamento de janela (`RANK() OVER(PARTITION BY ...)`) e agregações de no-show para planejamento de escala.
@@ -105,6 +105,7 @@ O repositório disponibiliza a solução completa de BI conectada diretamente ao
 * **Arquivo do Dashboard:** [`Healthcare_Analytics.pbix`](Healthcare_Analytics.pbix) pronto para abertura e exploração no Power BI Desktop.
 * **Documentação de DAX:** Medidas de negócio (KPIs, margem líquida, taxa de no-show e ranking) documentadas em [`docs/dax_measures.md`](docs/dax_measures.md).
 * **Bases de Dados Modeladas:** Dados em Star Schema preparados para importação em [`data/powerbi/`](data/powerbi/).
+* **Link powerBI:** https://app.powerbi.com/groups/me/reports/e569d434-0240-436b-83c3-93bb1fafbf65/fcb2eddd591c349e4cd2?experience=power-bi
 
 ---
 

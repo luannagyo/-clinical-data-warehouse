@@ -2,6 +2,8 @@
 
 ![Executive Dashboard Preview](docs/images/dashboard_preview.png)
 
+> **Solução de BI & Dashboard Power BI:** Arquivo completo para download disponível em [`Healthcare_Analytics.pbix`](Healthcare_Analytics.pbix) | Guia de medidas DAX em [`docs/dax_measures.md`](docs/dax_measures.md)
+
 ---
 
 ## Visão Executiva & Desafio de Negócio

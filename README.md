@@ -88,7 +88,7 @@ erDiagram
 
 ---
 
-## Consultas Analíticas Avançadas (SQL Sênior)
+## Consultas Analíticas Avançadas (SQL)
 
 O repositório disponibiliza queries em [`sql/03_analytical_queries.sql`](sql/03_analytical_queries.sql) que respondem perguntas estratégicas de gestão:
 1. **Ocupação e Horários Críticos:** Utiliza funções de ranqueamento de janela (`RANK() OVER(PARTITION BY ...)`) e agregações de no-show para planejamento de escala.
